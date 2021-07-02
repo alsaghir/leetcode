@@ -10,6 +10,7 @@
 
     <modules>
         <module>running-sum-of-1d-array</module>
+        <module>richest-customer-wealth</module>
     </modules>
 
     <properties>
