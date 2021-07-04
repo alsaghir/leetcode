@@ -12,4 +12,11 @@ class Solution {
 
         return maxWealth;
     }
+
+    public int maximumWealthUsingStreams(int[][] accounts) {
+        return Arrays.stream(accounts)
+                .mapToInt(customerAccount -> Arrays.stream(customerAccount).sum())
+                .max()
+                .getAsInt();
+    }
 }

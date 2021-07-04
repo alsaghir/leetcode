@@ -16,7 +16,7 @@ class DefaultTest {
 
         // When
         int result = new Solution().maximumWealth(input);
-        int result2 = new Solution().maximumWealth(input2);
+        int result2 = new Solution().maximumWealthUsingStreams(input2);
 
         // Then
         Assertions.assertEquals(expected, result);
