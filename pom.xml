@@ -11,6 +11,7 @@
     <modules>
         <module>running-sum-of-1d-array</module>
         <module>richest-customer-wealth</module>
+        <module>kids-with-the-greatest-number-of-candies</module>
     </modules>
 
     <properties>
