@@ -13,6 +13,7 @@
         <module>richest-customer-wealth</module>
         <module>kids-with-the-greatest-number-of-candies</module>
         <module>shuffle-the-array</module>
+        <module>number-of-good-pairs</module>
     </modules>
 
     <properties>
