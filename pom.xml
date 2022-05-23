@@ -9,17 +9,23 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>running-sum-of-1d-array</module>
-        <module>richest-customer-wealth</module>
         <module>kids-with-the-greatest-number-of-candies</module>
-        <module>shuffle-the-array</module>
         <module>number-of-good-pairs</module>
+        <module>richest-customer-wealth</module>
+        <module>robot-bounded-in-circle-solution</module>
+        <module>rotate-array</module>
+        <module>running-sum-of-1d-array</module>
+        <module>shuffle-the-array</module>
+        <module>two-sum</module>
+        <module>two-sum-II-input-array-is-sorted</module>
     </modules>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-        <maven.compiler.release>11</maven.compiler.release>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.release>17</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <junit.version>5.7.2</junit.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
