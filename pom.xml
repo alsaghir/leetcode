@@ -9,16 +9,19 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>convert-sorted-list-to-binary-search-tree</module>
         <module>kids-with-the-greatest-number-of-candies</module>
         <module>merge-sort</module>
         <module>number-of-good-pairs</module>
+        <module>rfq</module>
         <module>richest-customer-wealth</module>
         <module>robot-bounded-in-circle-solution</module>
         <module>rotate-array</module>
         <module>running-sum-of-1d-array</module>
         <module>shuffle-the-array</module>
-        <module>two-sum</module>
+        <module>string-to-integer-atoi</module>
         <module>two-sum-II-input-array-is-sorted</module>
+        <module>two-sum</module>
     </modules>
 
     <properties>
@@ -60,6 +63,7 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${maven-compiler-plugin.version}</version>
                 <configuration>
@@ -73,6 +77,7 @@
                 </configuration>
             </plugin>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${maven-surefire-plugin.version}</version>
             </plugin>
